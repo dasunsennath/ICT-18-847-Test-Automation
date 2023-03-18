@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [UCSC Test Automation Demo]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.hr.qa.extentreportlistener.ExtentReportListner"/>
+  </listeners>
+  <test thread-count="5" name="UCSC Test Automation Demo Testcases(failed)">
+    <classes>
+      <class name="com.hr.qa.testcases.UserPageTest">
+        <methods>
+          <include name="VerifyPageTitle"/>
+          <include name="ValidateNewUserForm"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hr.qa.testcases.UserPageTest -->
+    </classes>
+  </test> <!-- UCSC Test Automation Demo Testcases(failed) -->
+</suite> <!-- Failed suite [UCSC Test Automation Demo] -->
